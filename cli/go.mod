@@ -1,4 +1,4 @@
-module main
+module ws-cli
 
 go 1.18
 

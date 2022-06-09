@@ -1,4 +1,4 @@
-module main
+module ws-sp
 
 go 1.18
 

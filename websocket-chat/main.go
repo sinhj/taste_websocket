@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"ws-chat/src/chat"
+	"ws-chat/chat"
 )
 
 func main() {

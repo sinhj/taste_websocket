@@ -16,6 +16,6 @@ func main() {
 	http.Handle("/", http.FileServer(http.Dir(".")))
 	err := http.ListenAndServe(":8080", nil)
 	if err != nil {
-		panic("ListenAndServe: " + err.Error())
+		panic(any("ListenAndServe: " + err.Error()))
 	}
 }
